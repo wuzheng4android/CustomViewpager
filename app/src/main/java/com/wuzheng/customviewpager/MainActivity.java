@@ -34,9 +34,9 @@ public class MainActivity extends Activity {
         viewPager.setOffscreenPageLimit(8);
         viewPager.setAdapter(new IndexGalleryAdapter(this, imageBg));
         mIndicator = (BeeCirclePageIndicator) findViewById(R.id.indicator);
-
+        //给Viewpager设置Indicator
         mIndicator.setViewPager(viewPager, 0);
-
+        //设置Viewpager初始化位置
         viewPager.setCurrentItem(0);
         currIndex = 0;
 

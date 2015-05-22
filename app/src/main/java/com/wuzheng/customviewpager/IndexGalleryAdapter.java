@@ -23,6 +23,7 @@ public class IndexGalleryAdapter extends PagerAdapter {
 
     }
 
+
     @Override
     public float getPageWidth(int position) {
         return 0.8f;
