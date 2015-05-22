@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wuzheng.customviewpager.viewPager.LoopViewPager
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/news_banner_pager"
+        android:flipInterval="30"
+        />
+    <FrameLayout
+        android:id="@+id/fl_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp" >
+
+        <com.wuzheng.customviewpager.viewpagerindicator.BeeCirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp" />
+    </FrameLayout>
+
+</LinearLayout>
