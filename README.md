@@ -1,4 +1,4 @@
 # CustomViewpager
-#×Ô¶¨ÒåViewPagerÊµÏÖGalleryĞ§¹û£¬²¢ÄÜ¹»ÎŞÏŞÑ­»·ºÍ×Ô¶¯¹ö¶¯,²âÊÔÒ»ÏÂ
+#è‡ªå®šä¹‰ViewPagerå®ç°Galleryæ•ˆæœï¼Œå¹¶èƒ½å¤Ÿæ— é™å¾ªç¯å’Œè‡ªåŠ¨æ»šåŠ¨
 
 ![Alt text](https://github.com/wuzheng4android/CustomViewpager/blob/master/demo.gif)
